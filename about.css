@@ -1,0 +1,83 @@
+.botton_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.botton {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: #C3F1FF 4px solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #C3F1FF;
+    padding: 10px 10px 10px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 800px) {
+    h1 {
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    
+    h2 {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    .about_grid_1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+        margin: 30px 170px 0 170px;
+    }
+    
+    .botton_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr 1fr 2fr;
+    }
+    
+    .botton {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        border: #C3F1FF 4px solid;
+        border-radius: 25px;
+        text-align: center;
+        background-color: #C3F1FF;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .about_grid_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+        margin: 100px 170px 0 170px;
+    }
+
+    .creative {
+        order: -1;
+    }
+    
+    .inspiration h2 {
+        margin-top: 80px;
+        margin-bottom: 55px;
+    }
+
+    .inspiration p {
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,128 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding-left: 60px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+.logo img {
+    width: 90%;
+    object-fit: cover;
+    padding: 0;
+}
+
+.logo {
+    padding-top: 35px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* This will push the nav to the right */
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.menu li {
+    margin-right: 40px;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    display: block;
+    padding-right: 40px;
+    color: #000000;
+    text-decoration: none;
+    text-align: end;
+}
+
+.burger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.burger .line {
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        padding-bottom: 214px;
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+
+    .menu {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .burger.active .line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+        transition: 0.2s linear;
+    }
+
+    .burger.active .line:nth-child(2) {
+        opacity: 0;
+        transition: 0.15s linear;
+    }
+
+    .burger.active .line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+        transition: 0.2s linear;
+    }
+
+    nav.active .menu {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    nav.active .menu li {
+        margin: 5px 5px;
+    }
+
+    nav.active .menu a {
+        font-size: 1rem;
+
+        padding-right: 14px;
+    }
+    .logo img {
+        width: 50%;
+        padding-left: 5px;
+        object-fit: cover;
+    }
+
+    .logo {
+        padding-top: 15px;
+    }
+}

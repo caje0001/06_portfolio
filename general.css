@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    background-color: #fffbe8;
+}
+
+img {
+    width: 100%;
+    padding: 7px;
+}
+
+p {
+    max-width: 65ch;
+    font-family: "Amiri", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.14rem;
+    line-height: 25px;
+    padding: 0 7px 0 7px;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.kontakt {
+    text-align: center;
+} 
+
+.logo_footer {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 35px;
+}
+
+.kontakt li {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    list-style-type: none;
+    margin: 0;
+    font-size: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.4rem;
+    color: #638952;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Scope One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+h4 {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 0.6rem;
+}
+
+h5 {
+    font-family: "Amiri", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 32px;
+    padding: 0 7px 0 7px;
+}
+
+.footer h4 {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+a h4 {
+    margin: 10px 10px 20px;
+    color: black;
+    font-size: 1.1rem;
+}
+
+@media (min-width: 800px) {
+    p {
+        max-width: 65ch;
+        font-family: "Amiri", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.35rem;
+        line-height: 30px;
+    }
+    
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 400px;
+        margin: 80px 70px 90px 170px;
+    }
+
+    .footer h4 {
+        margin-bottom: 10px;
+    }
+    
+    .kontakt {
+        grid-column: 1/2;
+        margin: 0;
+        text-align: left;
+    }
+    
+    .logo_footer {
+        grid-column: 2/3;
+        width: 70%;
+        margin-top: 10px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: "Sarabun", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 6rem;
+        color: #638952;
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: "Scope One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.2rem;
+    }
+    
+    h3 {
+        font-family: "Sarabun", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2;
+    }
+    
+    h4 {
+        font-family: "Sarabun", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        margin-bottom: 16px;
+    }
+
+    h5 {
+        font-family: "Amiri", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.6rem;
+        line-height: 32px;
+        padding: 0 7px 0 7px;
+    }
+    
+    .kontakt li {
+        font-family: "Sarabun", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 22px;
+        list-style-type: none;
+        margin: 0;
+    }
+
+    main {
+        margin-bottom: 70px;
+    }
+
+    .line {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+
+    a h4 {
+        margin: 40px 170px 10px 170px;
+        font-size: 1.2rem;
+    }
+}
