@@ -4,38 +4,31 @@
     padding: 0;
 }
 
-.forside_grid_2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
-    margin: 40px 40px 60px 40px;
-} 
-
 .botton1 {
-    grid-column: 1/2;
     border: #C3F1FF 3px solid;
-    border-radius: 15px;
+    border-radius: 18px;
     text-align: center;
-    padding: 5px 0 5px 0;
+    padding: 6px 0 6px 0;
+    margin: 20px 125px 30px 125px;
 }
 
 .botton2 {
-    grid-column: 2/3;
     border: #C3F1FF 3px solid;
-    border-radius: 15px;
+    border-radius: 18px;
     text-align: center;
     background-color: #C3F1FF;
-    padding: 5px 0 5px 0;
+    padding: 6px 0 6px 0;
+    margin: 20px 125px 30px 125px;
 }
 
 .botton3 {
-    grid-column: 2/3;
     border: #638952 3px solid;
-    border-radius: 15px;
+    border-radius: 18px;
     text-align: center;
     background-color: #638952;
-    padding: 5px 0 5px 0;
+    padding: 6px 0 6px 0;
     color: #fffbe8;
+    margin: 20px 125px 30px 125px;
 }
 
 a {
@@ -84,8 +77,8 @@ h2 {
 .forside_grid_2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    margin: 100px 30px 0 30px;
+    gap: 30px;
+    margin: 90px 30px 0 30px;
 }
 
 .botton1 {
@@ -94,6 +87,7 @@ h2 {
     border-radius: 25px;
     text-align: center;
     padding: 10px 5px 10px 5px;
+    margin: 0;
 }
 
 .botton2 {
@@ -103,6 +97,7 @@ h2 {
     text-align: center;
     background-color: #C3F1FF;
     padding: 10px 5px 10px 5px;
+    margin: 0;
 }
 
 .botton3 {
@@ -112,6 +107,7 @@ h2 {
     text-align: center;
     background-color: #638952;
     padding: 10px 5px 10px 5px;
+    margin: 0;
 }
 
 .about h2 {
