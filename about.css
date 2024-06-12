@@ -46,19 +46,11 @@ h2 {
     }
     
     .botton_grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 2fr 1fr 2fr;
     }
-    
+
     .botton {
-        grid-column: 2/3;
-        grid-row: 2/3;
-        border: #C3F1FF 4px solid;
         border-radius: 25px;
-        text-align: center;
-        background-color: #C3F1FF;
-        padding: 10px 10px 10px 10px;
     }
     
     .about_grid_2 {

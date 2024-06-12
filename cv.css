@@ -18,7 +18,15 @@ h2 {
 }
 
 h5 {
-margin-top: 10px;    
+    margin-top: 10px;    
+}
+
+.back {
+    width: 25%;
+}
+
+img {
+    margin-top: 15px;
 }
 
 @media (min-width: 800px) {
@@ -64,6 +72,16 @@ h1 {
 }
 
 h5 {
-margin-top: 21px;
+    margin-top: 21px;
+}
+
+img {
+    margin-top: 0;
+}
+
+.back {
+    width: 8%;
+    margin-left: 170px;
+    margin-top: 20px;
 }
 }
